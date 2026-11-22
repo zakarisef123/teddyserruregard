@@ -561,7 +561,7 @@ dialog.viewer p{color:#fff; text-align:center; margin:.8rem 0 0; font-weight:600
    ========================================================================== */
 .service.service-noimg{grid-template-columns:1fr !important;}
 .service-noimg .service-body{padding-top:1.4rem;}
-.service-noimg .service-body::before{content:counter(svc, decimal-leading-zero); position:static; align-self:flex-start; margin-bottom:.9rem;}
+
 .top-banner-visual{position:relative; width:100%; aspect-ratio:4/3; border-radius:var(--r); background:linear-gradient(150deg,var(--night-3),var(--night-2) 60%,#0a0a0a); clip-path:polygon(0 0,100% 0,100% 85%,85% 100%,0 100%); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:1.2rem; padding:1.6rem; overflow:hidden; border:1px solid var(--night-line);}
 .top-banner-visual::before{content:""; position:absolute; inset:0; background-image:radial-gradient(rgba(255,255,255,.09) 1px,transparent 1px); background-size:18px 18px;}
 .top-banner-visual::after{content:""; position:absolute; width:62%; aspect-ratio:1; border-radius:50%; background:radial-gradient(circle,rgba(201,160,74,.22),transparent 70%);}
@@ -576,3 +576,7 @@ dialog.viewer p{color:#fff; text-align:center; margin:.8rem 0 0; font-weight:600
 .footer-brand img.logo-full{width:210px; height:auto;}
 @media (max-width:420px){ .logo img.logo-full{width:150px;} }
 .home-hero{background-blend-mode:normal,luminosity;}
+/* Tuile icône pour les prestations sans photo */
+.service-img-ico{display:flex; align-items:center; justify-content:center; background:radial-gradient(circle at 50% 45%,#262626,#121212 70%); color:var(--sun);}
+.service-img-ico svg{width:34%; max-width:110px; height:auto;}
+.service-body::before{content:counter(svc, decimal-leading-zero);}
