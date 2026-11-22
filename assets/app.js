@@ -70,7 +70,7 @@
 
   /* Consentement (Consent Mode v2) */
   var KEY = "pue_consent_v1";
-  var GTM_ID = ""; /* Google Tag Manager propre au site serrurerie : à renseigner (ex. "GTM-XXXXXXX") */
+  var GTM_ID = "GTM-53CVPFZZ"; /* Google Tag Manager Teddy-ets (conversions Google Ads appel + formulaire), identique au site plomberie */
   var bar = document.getElementById("consent-bar");
   function push() { window.dataLayer = window.dataLayer || []; window.dataLayer.push(arguments); }
   function loadGTM() {

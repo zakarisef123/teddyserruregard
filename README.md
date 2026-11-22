@@ -21,6 +21,7 @@ Prestations volontairement exclues : reproduction de clés et clés de voiture.
 - **Nom de domaine** : les URL canoniques, le `sitemap.xml`, `robots.txt` et la redirection des formulaires (`_next`)
   utilisent l'adresse provisoire `https://teddyserruregard.netlify.app`. À remplacer par le vrai domaine.
 - **Mentions légales** (`mentions-legales/index.html`) : restent `[À COMPLÉTER]` : TVA intracommunautaire, assureur, médiateur.
-- **Suivi Google** : Google Tag Manager désactivé ; renseigner l'identifiant propre à ce site dans `assets/app.js` (constante `GTM_ID`).
+- **Suivi Google** : Google Tag Manager `GTM-53CVPFZZ` (le même que le site plomberie), chargé après accord cookies dans `assets/app.js`.
+  Événements envoyés : `clic_appel` (clic sur un numéro) et `envoi_formulaire` (page `/merci/`).
 - **Formulaires** : envoyés via FormSubmit vers sos.renov10@gmail.com (objet « serrurerie »).
 - **Téléphone** : 07 54 86 49 39.
