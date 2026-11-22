@@ -585,3 +585,13 @@ dialog.viewer p{color:#fff; text-align:center; margin:.8rem 0 0; font-weight:600
 a.town{text-decoration:none; color:inherit; transition:border-color .2s,color .2s;}
 a.town:hover{border-color:var(--sun); color:var(--sun);}
 .city-towns{margin-top:1.4rem;}
+/* En-tête : photo visible (main + serrure) */
+.home-hero{background-image:linear-gradient(180deg,rgba(18,18,18,.78),rgba(18,18,18,.62)),url("/images/hero-serrurier.jpg"); background-position:center, 38% 45%;}
+@media (min-width:980px){
+  .home-hero{background-color:#121212; background-image:linear-gradient(90deg,#121212 0%,#121212 40%,rgba(18,18,18,.7) 50%,rgba(18,18,18,.15) 64%,rgba(18,18,18,0) 80%),url("/images/hero-serrurier.jpg"); background-size:100% 100%,auto 100%; background-position:0 0,right center; background-repeat:no-repeat;}
+}
+@media (min-width:980px){
+  .home-hero{background-image:none;}
+  .home-hero::after{content:""; position:absolute; top:0; right:0; bottom:0; width:58%; background:url("/images/hero-serrurier.jpg") 30% 45%/cover no-repeat;
+    -webkit-mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.6) 18%,#000 38%); mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.6) 18%,#000 38%); z-index:0;}
+}
