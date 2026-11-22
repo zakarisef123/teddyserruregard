@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://teddyserruregard.netlify.app/sitemap.xml
