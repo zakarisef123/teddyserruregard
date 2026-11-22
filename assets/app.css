@@ -580,3 +580,9 @@ dialog.viewer p{color:#fff; text-align:center; margin:.8rem 0 0; font-weight:600
 .service-img-ico{display:flex; align-items:center; justify-content:center; background:radial-gradient(circle at 50% 45%,#262626,#121212 70%); color:var(--sun);}
 .service-img-ico svg{width:34%; max-width:110px; height:auto;}
 .service-body::before{content:counter(svc, decimal-leading-zero);}
+/* Pages ville */
+.city-hero{background-image:radial-gradient(900px 420px at 85% 15%,rgba(201,160,74,.18),transparent 60%),linear-gradient(160deg,#121212 0%,#1c1c1c 60%,#262626 100%) !important;}
+.city-tag{text-transform:uppercase; letter-spacing:.06em;}
+a.town{text-decoration:none; color:inherit; transition:border-color .2s,color .2s;}
+a.town:hover{border-color:var(--sun); color:var(--sun);}
+.city-towns{margin-top:1.4rem;}

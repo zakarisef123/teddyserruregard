@@ -14,6 +14,8 @@ Palette : Noir Fonte #121212, Laiton #C9A04A, Ivoire #F4EFE4, Graphite #2A2A2A. 
   dépannage après effraction, verrous & renforts, rideau métallique, coffre-fort, contrôle d'accès & serrure connectée
 - `zones-intervention/` et une page par secteur : Nîmes, Alès & Cévennes, Uzès & Pont du Gard,
   Bagnols-sur-Cèze & Gard rhodanien, Beaucaire & Camargue gardoise, Sommières & Vaunage
+- `serrurier/<ville>/` : une page d'accueil par commune (72 communes), avec le nom de la ville en haut de page,
+  sans mention de « tout le Gard » (pratique pour les annonces Google Ads ciblées par ville)
 - `notre-entreprise/`, `faq/`, `contact/`, `merci/`, `404.html`, mentions légales et confidentialité
 - `assets/app.css` et `assets/app.js` : styles et scripts communs
 
