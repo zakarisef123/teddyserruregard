@@ -1,7 +1,10 @@
-# Teddy-ets Serrurerie — Gard (30)
+# Maison Ferrand Serrurier — Gard (30)
 
-Site statique (HTML/CSS/JS, sans build) de Teddy-ets (SOS RENOV), entreprise de serrurerie à Nîmes et dans tout le Gard (30).
-Même structure et même charte graphique que le site plomberie Teddy-ets.
+Site statique (HTML/CSS/JS, sans build) de Maison Ferrand Serrurier (SOS RENOV), entreprise de serrurerie à Nîmes et dans tout le Gard (30).
+Même structure et même charte graphique que le site plomberie Teddy-ets (même société, SOS RENOV).
+Logo : `images/logo-clair.svg` (fond clair), `images/logo-sombre.svg` (fond sombre), icône `images/icone.svg` / `icone.png`,
+favicon `favicon.svg` / `favicon.png`, image de partage `logo-partage.png`.
+Palette : Noir Fonte #121212, Laiton #C9A04A, Ivoire #F4EFE4, Graphite #2A2A2A. Typographies : Archivo Black, DM Sans.
 
 ## Structure
 
@@ -25,3 +28,4 @@ Prestations volontairement exclues : reproduction de clés et clés de voiture.
   Événements envoyés : `clic_appel` (clic sur un numéro) et `envoi_formulaire` (page `/merci/`).
 - **Formulaires** : envoyés via FormSubmit vers sos.renov10@gmail.com (objet « serrurerie »).
 - **Téléphone** : 07 54 86 49 39.
+- **Nom commercial** : « Maison Ferrand Serrurier » doit être déclaré comme nom commercial de SOS RENOV (guichet unique INPI).
