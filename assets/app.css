@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Teddy-ets Serrurerie — feuille de style
+   Maison Ferrand Serrurier — feuille de style
    ========================================================================== */
 :root{
   /* palette reprise du logo : bleu marine, bleu casquette, bleu ciel, jaune éclair, crème, brun ourson */
@@ -569,3 +569,4 @@ dialog.viewer p{color:#fff; text-align:center; margin:.8rem 0 0; font-weight:600
 .visual-chips{position:relative; z-index:1; display:flex; flex-wrap:wrap; justify-content:center; gap:.4rem; max-width:92%;}
 .visual-chips span{background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.18); color:#e8f0f7; font-size:.78rem; font-weight:700; padding:.3rem .65rem; border-radius:999px;}
 .excluded-note{margin-top:1.6rem; color:var(--mute); font-size:.92rem;}
+.footer-call .btn-sun,.call-strip .btn-sun{white-space:nowrap;}
