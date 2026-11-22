@@ -2,7 +2,9 @@
 
 Site statique (HTML/CSS/JS, sans build) de Maison Ferrand Serrurier (SOS RENOV), entreprise de serrurerie à Nîmes et dans tout le Gard (30).
 Même structure et même charte graphique que le site plomberie Teddy-ets (même société, SOS RENOV).
-Logo : `images/logo-ferrand.svg` (déclinaisons PNG : `logo-ferrand.png`, `favicon.png`).
+Logo : `images/logo-clair.svg` (fond clair), `images/logo-sombre.svg` (fond sombre), icône `images/icone.svg` / `icone.png`,
+favicon `favicon.svg` / `favicon.png`, image de partage `logo-partage.png`.
+Palette : Noir Fonte #121212, Laiton #C9A04A, Ivoire #F4EFE4, Graphite #2A2A2A. Typographies : Archivo Black, DM Sans.
 
 ## Structure
 
